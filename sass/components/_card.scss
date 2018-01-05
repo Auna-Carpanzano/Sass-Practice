@@ -1,4 +1,5 @@
 .card {
+  // FUNCTIONALITY
   perspective: 150rem;
   -moz-perspective: 150rem;
   position: relative;
@@ -35,6 +36,14 @@
 
     &:hover &__side--back {
     transform: rotateY(0deg);
+  }
+
+  // FRONT SIDE STYLES
+  &__picture {
+
+    &-1 {
+      background-image: url(../img/nat-5.jpg);
+    }
   }
 }
 
