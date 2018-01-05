@@ -6,6 +6,9 @@
     background-color: orangered;
     height: 50rem;
     transition: all .8s;
+    position: absolute;
+    top: 0;
+    left: 0;
 
     &--front {
       background-color: orangered;
