@@ -66,6 +66,7 @@
     &:active {
       background-position: 100%;
       color: $color-primary;
+      transform: translate(translateX(1rem);
     }
   }
 }
