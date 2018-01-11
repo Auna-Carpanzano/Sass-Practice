@@ -30,6 +30,8 @@ $breakpoint argument choices
 
 1em = 16px
 600px / 16 = 37.5em
+
+ORDER: Base, typography, general layout, page layout, components
 */
 @mixin respond($breakpoint) {
   @if $breakpoint == phone {
