@@ -4,7 +4,8 @@
   "description": "Sass practice",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss css/styles.css -w"
+    "watch:sass": "node-sass sass/main.scss css/styles.css -w",
+    "compile:sass": "node-sass sass/main.scss css/styles.comp.css"
   },
   "author": "",
   "license": "ISC",
